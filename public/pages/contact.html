@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Unbound Labs - Get in touch with our team for support, questions, or collaboration opportunities.">
+    <title>Contact | Unbound Labs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="nav-brand">
+                <span>unbound<span class="labs">labs</span></span>
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact" class="active">Contact</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-badge animate-on-scroll">
+                <i class="fas fa-envelope"></i>
+                <span>Get in Touch</span>
+            </div>
+            <h1 class="animate-on-scroll delay-1">Contact Us</h1>
+            <p class="hero-subtitle animate-on-scroll delay-2">
+                Have a question, feedback, or want to collaborate? We'd love to hear from you.
+            </p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="grid grid-2" style="gap: 60px; align-items: start;">
+                <div class="animate-on-scroll">
+                    <h2 style="margin-bottom: 24px;">Send a Message</h2>
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Tell us what's on your mind..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="animate-on-scroll delay-1">
+                    <h2 style="margin-bottom: 24px;">Other Ways to Reach Us</h2>
+                    
+                    <div class="card" style="margin-bottom: 24px;">
+                        <div class="card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4>Email</h4>
+                        <p>For general inquiries and support:</p>
+                        <a href="mailto:support@unboundlabs.dev" style="font-size: 1.125rem; font-weight: 500;">
+                            support@unboundlabs.dev
+                        </a>
+                    </div>
+                    
+                    <div class="card" style="margin-bottom: 24px;">
+                        <div class="card-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h4>GitHub</h4>
+                        <p>Report bugs, request features, or contribute to our projects:</p>
+                        <a href="https://github.com/thecatthatflies" target="_blank" style="font-size: 1.125rem; font-weight: 500;">
+                            github.com/thecatthatflies
+                        </a>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-share-nodes"></i>
+                        </div>
+                        <h4>Social Media</h4>
+                        <p>Follow us for updates and announcements:</p>
+                        <div class="social-links" style="margin-top: 16px;">
+                            <a href="https://youtube.com/@unboundlabs" target="_blank" aria-label="YouTube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="https://x.com/unbound.labs" target="_blank" aria-label="X (Twitter)">
+                                <i class="fab fa-x-twitter"></i>
+                            </a>
+                            <a href="https://instagram.com/unbound.labs" target="_blank" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://tiktok.com/@unbound.labs" target="_blank" aria-label="TikTok">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Quick answers to common questions.</p>
+            </div>
+            
+            <div class="grid grid-2">
+                <div class="card animate-on-scroll">
+                    <h4>How do I report a bug?</h4>
+                    <p>The best way to report bugs is through GitHub Issues on the relevant project repository. Include steps to reproduce, expected vs actual behavior, and your system information.</p>
+                </div>
+                
+                <div class="card animate-on-scroll delay-1">
+                    <h4>Can I contribute to your projects?</h4>
+                    <p>Absolutely! All our projects are open source. Check out our GitHub repositories for contribution guidelines and open issues.</p>
+                </div>
+                
+                <div class="card animate-on-scroll delay-2">
+                    <h4>Is this software free to use?</h4>
+                    <p>Yes, all Unbound Labs projects are free and open source. You can use, modify, and distribute them under their respective licenses.</p>
+                </div>
+                
+                <div class="card animate-on-scroll delay-3">
+                    <h4>How long does it take to get a response?</h4>
+                    <p>We typically respond to emails within 24-48 hours. For urgent issues, GitHub Issues often get faster attention from the community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="nav-brand">
+                        <span>unbound<span class="labs">labs</span></span>
+                    </a>
+                    <p>An experiment-driven company focused on developing experimental and simple projects.</p>
+                </div>
+                
+                <div>
+                    <h5>Projects</h5>
+                    <ul class="footer-links">
+                        <li><a href="/projects/unbound">unbound Browser</a></li>
+                        <li><a href="/projects/uncensored">uncensored Proxy</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h5>Company</h5>
+                    <ul class="footer-links">
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                        <li><a href="https://github.com/thecatthatflies" target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h5>Connect</h5>
+                    <ul class="footer-links">
+                        <li><a href="https://youtube.com/@unboundlabs" target="_blank">YouTube</a></li>
+                        <li><a href="https://x.com/unbound.labs" target="_blank">X (Twitter)</a></li>
+                        <li><a href="https://instagram.com/unbound.labs" target="_blank">Instagram</a></li>
+                        <li><a href="https://tiktok.com/@unbound.labs" target="_blank">TikTok</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Unbound Labs. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/thecatthatflies" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://youtube.com/@unboundlabs" target="_blank" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://x.com/unbound.labs" target="_blank" aria-label="X (Twitter)">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                    <a href="https://instagram.com/unbound.labs" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://tiktok.com/@unbound.labs" target="_blank" aria-label="TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

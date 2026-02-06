@@ -138,21 +138,10 @@
   background: var(--bg-secondary);
 }
 
-.hero h1 {
-  margin-bottom: 24px;
-}
-
-.hero-subtitle {
-  font-size: 1.25rem;
-  max-width: 640px;
-  margin: 0 auto 40px;
-}
-
-.hero-actions {
+.hero .container {
   display: flex;
-  justify-content: center;
-  gap: 16px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
 
 .product-hero {
@@ -193,6 +182,12 @@
   padding: 160px 0 80px;
   background: var(--bg-secondary);
   text-align: center;
+}
+
+.about-hero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-hero h1 {
@@ -249,11 +244,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 32px;
-}
-
-.feature {
-  text-align: center;
-  padding: 24px;
 }
 
 .feature h4 {

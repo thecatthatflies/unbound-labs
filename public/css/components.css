@@ -51,6 +51,10 @@
   font-size: 1rem;
 }
 
+.btn-glow:hover {
+  animation: glow 1.5s ease-in-out infinite;
+}
+
 .btn-sm {
   padding: 8px 16px;
   font-size: 0.875rem;
@@ -291,4 +295,119 @@
 .social-links a:hover {
   background: var(--accent-primary);
   color: #fff;
+}
+
+/* Hero Section Enhancements */
+.hero-gradient {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gradient-text {
+  background: var(--accent-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin-bottom: 32px;
+}
+
+.hero-subtitle {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  max-width: 600px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin-bottom: 48px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Section Approach Styling */
+.section-approach {
+  position: relative;
+}
+
+.section-subtitle {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  margin-top: 12px;
+  font-weight: 400;
+}
+
+/* Enhanced Feature Icons with Color Variations */
+.feature {
+  text-align: center;
+  padding: 32px 24px;
+  border-radius: var(--radius-lg);
+  background: var(--bg-primary);
+  transition: all var(--transition-normal);
+}
+
+.feature:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+}
+
+.feature-icon-1 {
+  border-color: #e85628;
+  color: #e85628;
+}
+
+.feature-icon-1:hover {
+  background: #e85628;
+  color: #fff;
+  border-color: #e85628;
+}
+
+.feature-icon-2 {
+  border-color: #00a8d8;
+  color: #00a8d8;
+}
+
+.feature-icon-2:hover {
+  background: #00a8d8;
+  color: #fff;
+  border-color: #00a8d8;
+}
+
+.feature-icon-3 {
+  border-color: #a78bfa;
+  color: #a78bfa;
+}
+
+.feature-icon-3:hover {
+  background: #a78bfa;
+  color: #fff;
+  border-color: #a78bfa;
+}
+
+.feature-icon-4 {
+  border-color: #34d399;
+  color: #34d399;
+}
+
+.feature-icon-4:hover {
+  background: #34d399;
+  color: #fff;
+  border-color: #34d399;
 }

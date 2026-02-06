@@ -6,7 +6,7 @@ const helmet = require('helmet');
 const { Resend } = require('resend');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5004;
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 app.use(
